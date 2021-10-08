@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://zhongyuanqiong.github.io/List/music/index.html</loc>
+    
+    <lastmod>2021-10-08</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://zhongyuanqiong.github.io/music/index.html</loc>
     
     <lastmod>2021-10-08</lastmod>
@@ -73,13 +80,6 @@
   
   <url>
     <loc>https://zhongyuanqiong.github.io/List/movies/index.html</loc>
-    
-    <lastmod>2021-07-26</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://zhongyuanqiong.github.io/List/music/index.html</loc>
     
     <lastmod>2021-07-26</lastmod>
     
