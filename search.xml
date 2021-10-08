@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Markdown快速入门小技巧(hexo博客文章--格式用法)</title>
+      <link href="/posts/15546.html"/>
+      <url>/posts/15546.html</url>
+      
+        <content type="html"><![CDATA[<p>相遇皆是缘分</p><h1 id="Markdown-的快速入门-后缀是-md"><a href="#Markdown-的快速入门-后缀是-md" class="headerlink" title="Markdown 的快速入门(后缀是  .md)"></a>Markdown 的快速入门(后缀是  .md)</h1><h2 id="快捷键"><a href="#快捷键" class="headerlink" title="快捷键"></a>快捷键</h2><pre class="line-numbers language-html" data-language="html"><code class="language-html">ctrl+shift+1 大纲显示ctrl+/ 源代码显示<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><h2 id="代码块："><a href="#代码块：" class="headerlink" title="代码块："></a>代码块：</h2><pre class="line-numbers language-java" data-language="java"><code class="language-java">​```<span class="token function">java</span><span class="token punctuation">(</span>html等等<span class="token punctuation">)</span>   会自动提示<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><pre class="line-numbers language-html" data-language="html"><code class="language-html">#标题1 （大）##标题2###标题3####标题4 （小）以此类推 最高标题6<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre><h2 id="加粗"><a href="#加粗" class="headerlink" title="加粗"></a>加粗</h2><pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token comment">//加粗</span><span class="token operator">*</span><span class="token operator">*</span>加粗<span class="token operator">*</span><span class="token operator">*</span><span class="token comment">//代码高亮显示</span><span class="token operator">==</span>高亮<span class="token operator">==</span><span class="token comment">//删除线</span><span class="token operator">~</span><span class="token operator">~</span>删除线<span class="token operator">~</span><span class="token operator">~</span><span class="token comment">//斜体</span>  <span class="token operator">*</span>斜体内容<span class="token operator">*</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h2 id="引用："><a href="#引用：" class="headerlink" title="引用："></a>引用：</h2><pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token comment">//引用语法</span><span class="token operator">&gt;</span>作者：泽<span class="token operator">&gt;&gt;</span>作者：泽<span class="token operator">&gt;&gt;&gt;</span>作者：泽<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre><blockquote><p>作者：泽</p><blockquote><p>作者：泽</p><blockquote><p>作者：泽</p></blockquote></blockquote></blockquote><h2 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h2><pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token comment">//分割线</span><span class="token operator">--</span><span class="token operator">-</span><span class="token operator">*</span><span class="token operator">*</span><span class="token operator">*</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre><h2 id="图片插入"><a href="#图片插入" class="headerlink" title="图片插入"></a>图片插入</h2><pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token comment">//在线图片与本地图片</span><span class="token operator">!</span><span class="token punctuation">[</span>照片名子<span class="token punctuation">]</span>（<span class="token operator">/</span>image<span class="token operator">/</span>me<span class="token punctuation">.</span>png）<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><p><img src="https://dss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3252521864,872614242&amp;fm=26&amp;gp=0.jpg" alt="img"></p><h2 id="超链接"><a href="#超链接" class="headerlink" title="超链接"></a>超链接</h2><pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token comment">//超链接语法</span><span class="token punctuation">[</span>超链接名字<span class="token punctuation">]</span>（https<span class="token operator">:</span><span class="token operator">/</span><span class="token operator">/</span>gihub<span class="token punctuation">.</span>com<span class="token operator">/</span>yerenping）<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><p><a href="https://music.163.com/#/song?id=28892408&amp;market=baiduqk">我的天空</a></p><h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h2><pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token comment">//无需列表</span><span class="token operator">-</span> 目录<span class="token number">1</span>  <span class="token operator">-</span>后加空格<span class="token operator">-</span> 目录<span class="token number">2</span><span class="token operator">-</span> 目录<span class="token number">3</span><span class="token comment">//有序列表</span>  <span class="token number">1</span><span class="token operator">+</span><span class="token punctuation">.</span> <span class="token operator">+</span>名称<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h2 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h2><pre class="line-numbers language-java" data-language="java"><code class="language-java">右键》插入》表格用代码过于复杂不推荐使用<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><table><thead><tr><th align="center">姓名</th><th align="center">数字</th><th align="center">语文</th></tr></thead><tbody><tr><td align="center">小王</td><td align="center">85</td><td align="center">21</td></tr><tr><td align="center"></td><td align="center"></td><td align="center"></td></tr><tr><td align="center"></td><td align="center"></td><td align="center"></td></tr></tbody></table>]]></content>
+      
+      
+      <categories>
+          
+          <category> hexo博客 </category>
+          
+          <category> Markdown </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo博客 </tag>
+            
+            <tag> Markdown </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
