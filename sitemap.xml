@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://zhongyuanqiong.github.io/posts/a5.html</loc>
+    
+    <lastmod>2021-10-12</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://zhongyuanqiong.github.io/link/index.html</loc>
     
     <lastmod>2021-10-11</lastmod>
@@ -189,6 +196,13 @@
   
   <url>
     <loc>https://zhongyuanqiong.github.io/categories/CSS/web%E5%89%8D%E7%AB%AF/</loc>
+    <lastmod>2021-10-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhongyuanqiong.github.io/categories/web%E5%89%8D%E7%AB%AF/</loc>
     <lastmod>2021-10-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
