@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>bootstrarp框架的使用</title>
+      <link href="/posts/a6.html"/>
+      <url>/posts/a6.html</url>
+      
+        <content type="html"><![CDATA[<p>欢迎来到小钟的博客！</p><h2 id="什么是Bootstrarp框架？"><a href="#什么是Bootstrarp框架？" class="headerlink" title="什么是Bootstrarp框架？"></a>什么是Bootstrarp框架？</h2><ul><li>bootstrarp是一个写网页的框架 就是说你只需要写HTML标签然后调用它提供的类你就可以很快速的做一个高大上的网页，你不用担心兼容问题，提供了很多样式供你选择！</li><li>用它提供的样式和组件快速写网站</li><li>Bootstrap 是最受欢迎的 HTML、CSS 和 JS 框架，用于开发响应式布局、移动设备优先的 WEB 项目。</li><li>里面创建了很多样式或者组件供你使用</li></ul><h2 id="使用Bootstrarp框架的步骤："><a href="#使用Bootstrarp框架的步骤：" class="headerlink" title="使用Bootstrarp框架的步骤："></a>使用Bootstrarp框架的步骤：</h2><ol><li><p>到bootstrarp官网下载bootstrarp相关文件：</p><ul><li><a href="https://v3.bootcss.com/getting-started/#download">https://v3.bootcss.com/getting-started/#download</a></li></ul></li><li><p>创建文件夹结构：</p><p><a href="https://imgtu.com/i/5QMo59"><img src="https://z3.ax1x.com/2021/10/14/5QMo59.png" alt="bootstrarp文件夹.png"></a></p></li><li><p>打开HTML文件  引入下载好的bootstrarp相关文件：</p><pre class="line-numbers language-HTML" data-language="HTML"><code class="language-HTML">&lt;link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li></ol><ol start="4"><li>书写你的网页内容</li></ol><h2 id="Bootstrarp框架的栅格系统："><a href="#Bootstrarp框架的栅格系统：" class="headerlink" title="Bootstrarp框架的栅格系统："></a>Bootstrarp框架的栅格系统：</h2><table><thead><tr><th align="center"></th><th align="center">超小屏幕（手机）&lt;768px</th><th align="center">小屏设备（平板）&gt;=768px</th><th align="center">中等屏幕（桌面显示器）&gt;=922px</th><th align="center">大屏屏幕（大桌面显示器） &gt;=1200px</th></tr></thead><tbody><tr><td align="center">.container 最大宽度</td><td align="center">自动（100%）</td><td align="center">750px</td><td align="center">970px</td><td align="center">1170px</td></tr><tr><td align="center">类前缀</td><td align="center">.col-xs-</td><td align="center">.col-sm-</td><td align="center">.col-md-</td><td align="center">.col-lg-</td></tr><tr><td align="center">列（column）数</td><td align="center">12</td><td align="center">12</td><td align="center">12</td><td align="center">12</td></tr></tbody></table><ul><li><p>Bootstrarp提供了一套响应式，移动设备优先的流式栅格系统 ，随着屏幕或视口尺寸的增加，</p><p>系统会自动分为最多12列</p></li><li><p>行（row）必须放在container布局容器里面</p></li><li><p>通过行（row）在水平方向创建一组列（column） 你的内容应当放在列（column）内</p></li><li><p>一行最多分成12列 超过的则在下一行显示</p></li><li><p>实现列的平均划分 需要给列添加类前缀</p></li><li><p>可以同时为一列指定多个设备的类名，以便划分不同的份数 例如 class=”col-xs-12 col-md-2 col-lg-3”</p></li><li><p>每一列默认有15px的padding</p></li></ul><h3 id="例子："><a href="#例子：" class="headerlink" title="例子："></a>例子：</h3><pre class="line-numbers language-HTML" data-language="HTML"><code class="language-HTML">&lt;!--------大屏幕的时候 一列占3份  中等屏幕的时候 一列占4份  平板的时候 一列占6份  手机的时候 一列占12份-------&gt; &lt;style&gt;     .row{         margin-top:50px;     }        .container .row div {            border: 1px solid salmon;        }    &lt;/style&gt;  &lt;!-----------container容器--&gt;    &lt;div class="container"&gt;        &lt;!------------一行--&gt;        &lt;div class="row"&gt;            &lt;div class="col-lg-3 col-md-4 col-sm-6 col-xs-12"&gt;1&lt;/div&gt;            &lt;div class="col-lg-3 col-md-4 col-sm-6 col-xs-12"&gt;2&lt;/div&gt;            &lt;div class="col-lg-3 col-md-4 col-sm-6 col-xs-12"&gt;3&lt;/div&gt;            &lt;div class="col-lg-3 col-md-4 col-sm-6 col-xs-12"&gt;4&lt;/div&gt;        &lt;/div&gt;    &lt;/div&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h3 id="效果图："><a href="#效果图：" class="headerlink" title="效果图："></a>效果图：</h3><p><a href="https://imgtu.com/i/5Q4lNT"><img src="https://z3.ax1x.com/2021/10/14/5Q4lNT.png" alt="5Q4lNT.png"></a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 框架 </category>
+          
+          <category> bootstrap </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 框架 </tag>
+            
+            <tag> bootstrarp </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Ajax笔记</title>
       <link href="/posts/a1.html"/>
       <url>/posts/a1.html</url>
