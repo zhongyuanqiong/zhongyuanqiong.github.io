@@ -4,11 +4,37 @@
   
     
     <entry>
+      <title>JS的同步和异步</title>
+      <link href="/posts/8baec9ac.html"/>
+      <url>/posts/8baec9ac.html</url>
+      
+        <content type="html"><![CDATA[<p>js是单线程语言 同一时间只能做一件事情   所以就意味着 所有的任务需要排队 上一个任务执行结束了 ， 下一个任务才会去执行<br>这样就会导致 js执行时间过长的话 ， 就会造成页面渲染不连贯 为了解决这个问题 html5就允许JavaScript脚本可以创建多线程 所以就出现了同步和异步<br>同步和异步：<br>同步：上一个任务执行结束后 下一个任务才会执行；<br>异步：在执行这个任务的同时，你还可以执行其他的任务；<br>它们本质的区别是：这条流水线上各个流程的执行顺序不同；<br>同步任务：同步任务都在主线程上执行，形成一个执行<br>异步任务：js的异步是通过回调函数实现的；<br>异步任务有以下三种类型：<br>   1.普通事件，如click,resize</p><p>​     2.资源加载，如load,error等</p><p>​     3.定时器： setinterval , setTimeout等</p><p>异步任务相关回调函数添加到任务队列（消息队列）</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>JS的运行机制</title>
+      <link href="/posts/b422724c.html"/>
+      <url>/posts/b422724c.html</url>
+      
+        <content type="html"><![CDATA[<p>JS的运行机制：</p><ul><li>先执行执行栈里面的同步任务</li><li>异步任务（回调函数）放入任务队列中</li><li>一旦执行栈中的全部同步任务执行完成后，系统就会按次序读取任务队列中的异步任务 于是异步任务结束等待状态，进入执行栈开始执行</li></ul><p><a href="https://imgtu.com/i/5gpLvT"><img src="https://z3.ax1x.com/2021/10/22/5gpLvT.png" alt="JS的运行机制.png"></a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>javaScript-BOM操作</title>
       <link href="/posts/a11.html"/>
       <url>/posts/a11.html</url>
       
-        <content type="html"><![CDATA[<p>BOM（浏览器对象模型 Browser object model ）</p><ul><li>BOM描述与浏览器进行交互的方法和接口</li></ul><p>BOM包括：</p><ul><li>document—DOM</li><li>location对象    —–用于获取或者设置窗体的URL</li><li>history对象      —–浏览器历史记录   访问过的URL</li><li>navigator对象  —–有关浏览器的信息</li><li>Screen对象     ——对象包含有关用户屏幕的信息</li></ul>]]></content>
+        <content type="html"><![CDATA[<p>BOM（浏览器对象模型 Browser object model ）</p><ul><li>BOM描述与浏览器进行交互的方法和接口</li></ul><p>BOM包括：</p><ul><li>document—DOM</li><li>location对象    —–用于获取或者设置窗体的URL</li><li>history对象      —–浏览器历史记录   访问过的URL</li><li>navigator对象  —–有关浏览器的信息</li><li>Screen对象     ——对象包含有关用户屏幕的信息</li></ul><h3 id="location对象"><a href="#location对象" class="headerlink" title="location对象:"></a>location对象:</h3><p>location对象的属性：</p><ul><li>location.href   —————- 获取或者设置整个url</li><li>location.search  ————-返回参数</li><li>location.host  —————- 返回主机名（域名）  <a href="http://www.baidu.com/">www.baidu.com</a></li><li>location.port —————–返回端口号</li><li>location.pathname  ———返回路径</li><li>location.hash ————-返回片段 #后面的内容 常见于锚点链接</li></ul><p>location对象方法：</p><ul><li>location.assign() ————–跟href一样，可以跳转页面 （也称为重定向页面）</li><li>location.replace() ————-替换当前页面，因为不记录历史 ，所以不能后退</li><li>location.reload() —————重新加载页面 ，相当于f5刷新按钮</li></ul>]]></content>
       
       
       <categories>
