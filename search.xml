@@ -4,38 +4,6 @@
   
     
     <entry>
-      <title>JS的同步和异步</title>
-      <link href="/posts/8baec9ac.html"/>
-      <url>/posts/8baec9ac.html</url>
-      
-        <content type="html"><![CDATA[<p>js是单线程语言 同一时间只能做一件事情   所以就意味着 所有的任务需要排队 上一个任务执行结束了 ， 下一个任务才会去执行<br>这样就会导致 js执行时间过长的话 ， 就会造成页面渲染不连贯 为了解决这个问题 html5就允许JavaScript脚本可以创建多线程 所以就出现了同步和异步<br>同步和异步：<br>同步：上一个任务执行结束后 下一个任务才会执行；<br>异步：在执行这个任务的同时，你还可以执行其他的任务；<br>它们本质的区别是：这条流水线上各个流程的执行顺序不同；<br>同步任务：同步任务都在主线程上执行，形成一个执行<br>异步任务：js的异步是通过回调函数实现的；<br>异步任务有以下三种类型：<br>   1.普通事件，如click,resize</p><p>​     2.资源加载，如load,error等</p><p>​     3.定时器： setinterval , setTimeout等</p><p>异步任务相关回调函数添加到任务队列（消息队列）</p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>JS的运行机制</title>
-      <link href="/posts/a12.html"/>
-      <url>/posts/a12.html</url>
-      
-        <content type="html"><![CDATA[<p>JS的运行机制：</p><ul><li>先执行执行栈里面的同步任务</li><li>异步任务（回调函数）放入任务队列中</li><li>一旦执行栈中的全部同步任务执行完成后，系统就会按次序读取任务队列中的异步任务 于是异步任务结束等待状态，进入执行栈开始执行</li></ul><p><a href="https://imgtu.com/i/5gpLvT"><img src="https://z3.ax1x.com/2021/10/22/5gpLvT.png" alt="JS的运行机制.png"></a></p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> JavaScript </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>javaScript-BOM操作</title>
       <link href="/posts/a11.html"/>
       <url>/posts/a11.html</url>
@@ -55,6 +23,31 @@
             <tag> JavaScript </tag>
             
             <tag> BOM </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>JS的运行机制</title>
+      <link href="/posts/a22.html"/>
+      <url>/posts/a22.html</url>
+      
+        <content type="html"><![CDATA[<p>相遇皆是缘分</p><p>JS的运行机制：</p><ul><li>先执行执行栈里面的同步任务</li><li>异步任务（回调函数）放入任务队列中</li><li>一旦执行栈中的全部同步任务执行完成后，系统就会按次序读取任务队列中的异步任务 于是异步任务结束等待状态，进入执行栈开始执行</li></ul><p><a href="https://imgtu.com/i/5gpLvT"><img src="https://z3.ax1x.com/2021/10/22/5gpLvT.png" alt="JS的运行机制.png"></a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> javaScript </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> javaScript </tag>
             
         </tags>
       
@@ -223,6 +216,31 @@
             <tag> HTML </tag>
             
             <tag> Web前端 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>JS的同步与异步</title>
+      <link href="/posts/a14.html"/>
+      <url>/posts/a14.html</url>
+      
+        <content type="html"><![CDATA[<p>相遇皆是缘分</p><p>js是单线程语言 同一时间只能做一件事情   所以就意味着 所有的任务需要排队 上一个任务执行结束了 ， 下一个任务才会去执行<br>这样就会导致 js执行时间过长的话 ， 就会造成页面渲染不连贯 为了解决这个问题 html5就允许JavaScript脚本可以创建多线程 所以就出现了同步和异步<br>同步和异步：<br>同步：上一个任务执行结束后 下一个任务才会执行；<br>异步：在执行这个任务的同时，你还可以执行其他的任务；<br>它们本质的区别是：这条流水线上各个流程的执行顺序不同；<br>同步任务：同步任务都在主线程上执行，形成一个执行<br>异步任务：js的异步是通过回调函数实现的；<br>异步任务有以下三种类型：<br>   1.普通事件，如click,resize</p><p>​     2.资源加载，如load,error等</p><p>​     3.定时器： setinterval , setTimeout等</p><p>异步任务相关回调函数添加到任务队列（消息队列）</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> javaScript </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> javaScript </tag>
             
         </tags>
       
